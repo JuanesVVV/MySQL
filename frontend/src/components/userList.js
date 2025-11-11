@@ -115,3 +115,66 @@ function UserList() {
 }
 
 export default UserList;
+
+const styles = {
+  container: {
+    padding: '20px',
+    fontFamily: 'Segoe UI, sans-serif',
+    backgroundColor: '#0a192f',
+    color: '#64ffda',
+    minHeight: '100vh'
+  },
+  title: {
+    fontSize: '28px',
+    marginBottom: '20px',
+    borderBottom: '2px solid #64ffda',
+    paddingBottom: '10px'
+  },
+  form: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    gap: '10px',
+    marginBottom: '20px'
+  },
+  input: {
+    padding: '10px',
+    borderRadius: '4px',
+    border: '1px solid #64ffda',
+    backgroundColor: '#112240',
+    color: '#64ffda',
+    flex: '1 1 200px'
+  },
+  button: {
+    padding: '10px 20px',
+    backgroundColor: '#64ffda',
+    color: '#0a192f',
+    border: 'none',
+    borderRadius: '4px',
+    cursor: 'pointer',
+    fontWeight: 'bold'
+  },
+  table: {
+    width: '100%',
+    borderCollapse: 'collapse',
+    backgroundColor: '#112240',
+    color: '#ffffff'
+  },
+  th: {
+    backgroundColor: '#0a192f',
+    color: '#64ffda',
+    padding: '10px',
+    borderBottom: '2px solid #64ffda'
+  },
+  td: {
+    padding: '10px',
+    borderBottom: '1px solid #64ffda'
+  },
+  actions: {
+    display: 'flex',
+    gap: '10px'
+  },
+  error: {
+    color: 'red',
+    marginTop: '10px'
+  }
+};
