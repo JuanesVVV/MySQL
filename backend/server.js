@@ -15,3 +15,9 @@ app.get('/', (req, res) => {
 app.listen(5001, () => {
   console.log('🚀 Servidor CyberShield en http://localhost:5001');
 });
+
+router.get('/', usuarios.listar);
+router.post('/login', usuarios.login);
+// ... otras rutas
+
+module.exports = router;
