@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 app.listen(5001, () => {
-  console.log('🚀 Servidor CyberShield en http://localhost:5001');
+  console.log('🚀 Servidor CyberShield en http://localhost:3000');
 });
 
 router.get('/', usuarios.listar);
